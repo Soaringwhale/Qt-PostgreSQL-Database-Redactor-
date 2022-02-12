@@ -2,7 +2,7 @@
 
 DataBase::DataBase(QObject *parent) : QObject(parent) { }
 
-DataBase::~DataBase() {delete this; }
+DataBase::~DataBase() {}
 
 
 void DataBase::connectToDataBase()                                          //  метод подключения к БД.   Если нашей бд не существовало, она будет создана и подключена.
